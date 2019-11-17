@@ -1,0 +1,45 @@
+body {
+  background: black;
+}
+
+.contText {
+  color: goldenrod;
+  font-size: 30px;
+  width: 80%;
+  background: black;
+  text-align: center;
+  margin: auto;
+}
+
+.btn-all {
+  background: black;
+
+  margin-top: 100px;
+  width: 100%;
+
+}
+
+.btn-group {
+  margin-top: 60px;
+
+  width: 70%;
+  height:60px;
+  border-radius: 20px;
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-size: 20px;
+  display: block;
+  text-align: center;
+  margin-left: 70px;
+}
+
+.btn-group:hover {
+  color: black;
+  background-color: gold;
+}
