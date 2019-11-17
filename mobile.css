@@ -41,14 +41,13 @@ img {
 }
 .formDet{
   display: block;
-
-  margin-left: 20%;
+  margin-left: 17%;
 
 
 }
 #fname{
-  height: 50px;
-  width: 250px;
+  height: 40px;
+  width: 200px;
   margin-top: 20px;
   font-size: 25px;
 
