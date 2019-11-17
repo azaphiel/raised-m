@@ -7,16 +7,10 @@ img {
   filter: blur(50px);
   filter: opacity(40%);
   position: absolute;
-  animation: animateMid 30s linear infinite;
   width: 95%;
   height: 110%;
 }
 
-@keyframes animateMid {
-  0% {
-    background-position: left 800px top 0px;
-  }
-}
 
 .euro {
   color: rgba(225, 225, 225, .1);
@@ -44,6 +38,20 @@ img {
   font-size: 10vw;
   text-align: left;
   margin: auto;
+}
+.formDet{
+  display: block;
+
+  margin-left: 20%;
+
+
+}
+#fname{
+  height: 50px;
+  width: 250px;
+  margin-top: 20px;
+  font-size: 25px;
+
 }
 
 .btn-all {
