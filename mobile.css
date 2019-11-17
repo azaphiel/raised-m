@@ -1,20 +1,20 @@
 body {
   background: black;
+  background: url(color3.jpg);
 }
 
 .contText {
   color: goldenrod;
-  font-size: 35px;
+font-family:"Gill Sans", sans-serif;
   width: 70%;
-
-  background: black;
+  font-size:10vw;
   text-align: left;
   margin: auto;
 }
 
 .btn-all {
-  background: white;
-  margin-top: 100px;
+  
+  margin-top: 80px;
   width: 100%;
 }
 
