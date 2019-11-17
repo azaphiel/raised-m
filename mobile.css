@@ -27,6 +27,7 @@ animation: animateMidE 15s linear infinite;
 -webkit-background-clip: text;
   font-family:arial;
   font-size: 30vw;
+  font-weight:600;
   text-align:center;
   margin: auto;
 
