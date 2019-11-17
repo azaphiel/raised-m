@@ -1,18 +1,15 @@
-body{
+body {
   background-color: black;
 }
 
-img{
-
+img {
   z-index: -2;
   filter: blur(50px);
-filter: opacity(40%);
+  filter: opacity(40%);
   position: absolute;
   animation: animateMid 30s linear infinite;
   width: 95%;
   height: 110%;
-
-
 }
 
 @keyframes animateMid {
@@ -20,26 +17,28 @@ filter: opacity(40%);
     background-position: left 800px top 0px;
   }
 }
-.euro{
-  color: rgba(225, 225, 225, .1);
-background: url(color3.jpg);
-animation: animateMidE 15s linear infinite;
--webkit-background-clip: text;
-  font-family:arial;
-  font-size: 30vw;
-  font-weight:600;
-  text-align:center;
-  margin: auto;
 
+.euro {
+  color: rgba(225, 225, 225, .1);
+  background: url(color3.jpg);
+  animation: animateMidE 15s linear infinite;
+  -webkit-background-clip: text;
+  font-family: arial;
+  font-size: 30vw;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
 }
+
 @keyframes animateMidE {
   0% {
     background-position: left 1000px top 1000px;
   }
 }
+
 .contText {
   color: goldenrod;
-  font-weight:600;
+  font-weight: 600;
   font-family: "Gill Sans", sans-serif;
   width: 70%;
   font-size: 10vw;
