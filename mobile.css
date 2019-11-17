@@ -8,8 +8,8 @@ img{
 filter: opacity(40%);
   position: absolute;
   animation: animateMid 30s linear infinite;
-  height: 100%;
-  width: 96%;
+  
+
 
 }
 
