@@ -20,7 +20,15 @@ filter: opacity(40%);
     background-position: left 800px top 0px;
   }
 }
+.euro{
+  color: goldenrod;
 
+  font-family:arial;
+  font-size: 20vw;
+  text-align:center;
+  margin: auto;
+
+}
 .contText {
   color: goldenrod;
   font-weight:600;
