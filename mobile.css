@@ -1,8 +1,15 @@
 body {
   background: black;
   background: url(color3.jpg);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  animation: animateMid 15s linear infinite;
 }
-
+@keyframes animateMid {
+  0% {
+    background-position: left 800px top 0px;
+  }
+}
 .contText {
   color: goldenrod;
 font-family:"Gill Sans", sans-serif;
@@ -13,7 +20,7 @@ font-family:"Gill Sans", sans-serif;
 }
 
 .btn-all {
-  
+
   margin-top: 80px;
   width: 100%;
 }
