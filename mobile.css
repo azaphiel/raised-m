@@ -21,13 +21,20 @@ filter: opacity(40%);
   }
 }
 .euro{
-  color: goldenrod;
-
+  color: rgba(225, 225, 225, .1);
+background: url(color3.jpg);
+animation: animateMidE 15s linear infinite;
+-webkit-background-clip: text;
   font-family:arial;
   font-size: 26vw;
   text-align:center;
   margin: auto;
 
+}
+@keyframes animateMidE {
+  0% {
+    background-position: left 1000px top 1000px;
+  }
 }
 .contText {
   color: goldenrod;
