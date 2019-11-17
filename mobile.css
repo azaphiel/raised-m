@@ -4,24 +4,22 @@ body {
 
 .contText {
   color: goldenrod;
-  font-size: 30px;
-  width: 80%;
+  font-size: 35px;
+  width: 70%;
+
   background: black;
-  text-align: center;
+  text-align: left;
   margin: auto;
 }
 
 .btn-all {
-  background: black;
-
+  background: white;
   margin-top: 100px;
   width: 100%;
-
 }
 
 .btn-group {
   margin-top: 40px;
-
   width: 70%;
   height:60px;
   border-radius: 20px;
