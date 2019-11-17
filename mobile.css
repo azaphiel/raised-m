@@ -1,26 +1,31 @@
-body {
-  background: black;
-  background: url(color3.jpg);
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  animation: animateMid 15s linear infinite;
+body{
+  background-color: black;
 }
+
+img{
+  z-index: -2;
+  filter: blur(4px);
+  position: absolute;
+  background-repeat: repeat-x;
+  animation: animateMid 30s linear infinite;
+}
+
 @keyframes animateMid {
   0% {
     background-position: left 800px top 0px;
   }
 }
+
 .contText {
   color: goldenrod;
-font-family:"Gill Sans", sans-serif;
+  font-family: "Gill Sans", sans-serif;
   width: 70%;
-  font-size:10vw;
+  font-size: 10vw;
   text-align: left;
   margin: auto;
 }
 
 .btn-all {
-
   margin-top: 80px;
   width: 100%;
 }
@@ -28,7 +33,7 @@ font-family:"Gill Sans", sans-serif;
 .btn-group {
   margin-top: 40px;
   width: 70%;
-  height:60px;
+  height: 60px;
   border-radius: 20px;
   background-color: goldenrod;
   border: none;
