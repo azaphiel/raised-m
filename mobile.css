@@ -3,6 +3,7 @@ body{
 }
 
 img{
+
   z-index: -2;
   filter: blur(50px);
 filter: opacity(40%);
@@ -37,6 +38,7 @@ filter: opacity(40%);
 
 .btn-group {
   margin-top: 40px;
+  font-family: "Gill Sans", sans-serif;
   width: 70%;
   height: 60px;
   border-radius: 20px;
