@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
+
 <head>
   <link rel="stylesheet" type="text/css" href="mobile.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Raised App</title>
+<script>
+
+function getEx()
+{
+let sessionKey = null;
+
+
+  fetch('https://api.raisedforyou.com/api/v1/sessions',{
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+body: JSON.stringify({
+  name: 'Özkan'
+})
+}).then(res => {return res.json()
+})
+.then(data => console.log(data))
+}
+
+</script>
+
+
 </head>
 
 <body>
 
 <img src="color3.jpg">
+
+
 
   <br>
   <br>
@@ -19,12 +45,14 @@
 
 
   <div class="btn-all">
+    <button class="btn-group" onclick="getEx()">€10</button>
     <button class="btn-group" onclick="window.location.href =
-    'index-ten.html';">€10</button>
-    <button class="btn-group" onclick="window.location.href =
-     'index-twen.html';">€20</button>
-    <button class="btn-group">Custom Amount</button>
+     'index-twen.html'">€20</button>
+    <button class="btn-group" onclick="paymentNew()">Custom Amount</button>
   </div>
+
+
+
 
 </body>
 
