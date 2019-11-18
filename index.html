@@ -9,7 +9,7 @@
   <title>Raised App</title>
 <script>
 
-function getEx()
+function pay8()
 {
 
 let sessionKey = null;
@@ -29,10 +29,59 @@ body: JSON.stringify({
 }).then(res => {return res.json()
 })
 
-.then( data => {transactionLink = data.transaction_link; console.log(data); window.location = transactionLink; })
+.then( data => {transactionLink = data.transaction_link; console.log(data);
+   window.location = transactionLink; })
 
 }
 
+function payCustom()
+{
+let amountBtn = (+document.getElementById("donation").value * 100)-29;
+let sessionKey = null;
+let transactionLink= null;
+
+var response = Response.redirect("http://www.google.com", 302);
+fetch('https://api.raisedforyou.com/api/v1/sessions/726F37/donations',{
+method: 'POST',
+headers: {
+'Content-Type': 'application/json'
+},
+body: JSON.stringify({
+  amount: amountBtn,
+    currency: "EUR",
+    description: "donation"
+})
+}).then(res => {return res.json()
+})
+
+.then( data => {transactionLink = data.transaction_link; console.log(data);
+   window.location = transactionLink; })
+
+}
+function pay15()
+{
+
+let sessionKey = null;
+let transactionLink= null;
+
+var response = Response.redirect("http://www.google.com", 302);
+fetch('https://api.raisedforyou.com/api/v1/sessions/726F37/donations',{
+method: 'POST',
+headers: {
+'Content-Type': 'application/json'
+},
+body: JSON.stringify({
+  amount: 1471,
+    currency: "EUR",
+    description: "donation"
+})
+}).then(res => {return res.json()
+})
+
+.then( data => {transactionLink = data.transaction_link; console.log(data);
+   window.location = transactionLink; })
+
+}
 </script>
 
 
@@ -51,10 +100,11 @@ body: JSON.stringify({
 
 
   <div class="btn-all">
-    <button class="btn-group" onclick="getEx()">€8</button>
-    <button class="btn-group" onclick="window.location.href =
-     'index-twen.html'">€20</button>
-    <button class="btn-group" onclick="paymentNew()">Custom Amount</button>
+    <button class="btn-group" onclick="pay8()">€8</button>
+    <button class="btn-group" onclick="pay15()">€15</button>
+    <button class="btn-group" onclick="payCustom()">Custom Amount</button>
+    <input type="text" id="donation" background-color="goldenrod"
+    name="quantity" min="1" max="5">
   </div>
 
 
