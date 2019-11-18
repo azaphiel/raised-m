@@ -11,20 +11,26 @@
 
 function getEx()
 {
+
 let sessionKey = null;
+let transactionLink= null;
 
-
-  fetch('https://api.raisedforyou.com/api/v1/sessions',{
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json'
-  },
+var response = Response.redirect("http://www.google.com", 302);
+fetch('https://api.raisedforyou.com/api/v1/sessions/726F37/donations',{
+method: 'POST',
+headers: {
+'Content-Type': 'application/json'
+},
 body: JSON.stringify({
-  name: 'Özkan'
+  amount: 800,
+    currency: "EUR",
+    description: "donation"
 })
 }).then(res => {return res.json()
 })
-.then(data => console.log(data))
+
+.then( data => {transactionLink = data.transaction_link; console.log(data);window.open(transactionLink, '_blank');})
+
 }
 
 </script>
@@ -45,7 +51,7 @@ body: JSON.stringify({
 
 
   <div class="btn-all">
-    <button class="btn-group" onclick="getEx()">€10</button>
+    <button class="btn-group" onclick="getEx()">€8</button>
     <button class="btn-group" onclick="window.location.href =
      'index-twen.html'">€20</button>
     <button class="btn-group" onclick="paymentNew()">Custom Amount</button>
