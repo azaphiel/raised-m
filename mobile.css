@@ -72,20 +72,47 @@ img {
   text-decoration: none;
   cursor: pointer;
   padding: 15px 32px;
-  font-size: 20px;
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  margin-left: 60px;
+}
+.btn-group1 {
+  margin-top: 40px;
+  font-family: "Gill Sans", sans-serif;
+  width: 55%;
+  height: 60px;
+  border-radius: 20px;
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  text-align: center;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  font-size: 25px;
   display: block;
   text-align: center;
   margin-left: 60px;
 }
 #donation{
-  width: 70px;
-  height: 30px;
+  width: 12%;
+  height: 55px;
+  border-radius: 20px;
   background: goldenrod;
-  margin-left: 40%;
-  margin-top: 30px;
-  font-size: 20px;
+  margin-left: 65%;
+  margin-top: -60px;
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  color: white;
 }
 .btn-group:hover {
+  color: black;
+  background-color: gold;
+}
+.btn-group1:hover {
   color: black;
   background-color: gold;
 }
