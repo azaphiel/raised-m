@@ -107,6 +107,10 @@ img {
   text-align: center;
   color: white;
 }
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
 .btn-group:hover {
   color: black;
   background-color: gold;
