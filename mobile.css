@@ -59,7 +59,7 @@ img {
 }
 
 .btn-group {
-  margin-top: 30px;
+  margin-top: 25px;
   font-family: "Gill Sans", sans-serif;
   width: 70%;
   height: 60px;
@@ -78,7 +78,7 @@ img {
   margin-left: 60px;
 }
 .btn-group1 {
-  margin-top: 40px;
+  margin-top: 25px;
   font-family: "Gill Sans", sans-serif;
   width: 52%;
   height: 60px;
@@ -97,7 +97,7 @@ img {
 }
 #donation{
   width: 14%;
-  height: 54px;
+  height: 52px;
   border-radius: 20px;
   background: goldenrod;
   margin-left: 68%;
