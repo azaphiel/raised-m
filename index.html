@@ -29,7 +29,7 @@ body: JSON.stringify({
 }).then(res => {return res.json()
 })
 
-.then( data => {transactionLink = data.transaction_link; console.log(data); window.open(transactionLink, 'newtab');})
+.then( data => {transactionLink = data.transaction_link; console.log(data); window.location = transactionLink; })
 
 }
 
