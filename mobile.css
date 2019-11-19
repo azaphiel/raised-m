@@ -14,13 +14,13 @@ img {
 
 .contText {
   color: rgba(225, 225, 225, .1);
-  background: url(color3.jpg);
+  background: goldenrod;
   animation: animateMidE 15s linear infinite;
   -webkit-background-clip: text;
   font-family: arial;
-  font-size: 15vw;
+  font-size: 10vw;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   margin: auto;
   width: 90%;
 }
