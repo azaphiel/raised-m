@@ -12,13 +12,13 @@ img {
 }
 
 
-.euro {
+.contText {
   color: rgba(225, 225, 225, .1);
   background: url(color3.jpg);
   animation: animateMidE 15s linear infinite;
   -webkit-background-clip: text;
   font-family: arial;
-  font-size: 30vw;
+  font-size: 20vw;
   font-weight: 600;
   text-align: center;
   margin: auto;
@@ -30,7 +30,7 @@ img {
   }
 }
 
-.contText {
+.conText {
   color: goldenrod;
   font-weight: 600;
   font-family: "Gill Sans", sans-serif;
@@ -109,7 +109,7 @@ img {
 }
 ::placeholder {
   color: white;
-  opacity: 1; 
+  opacity: 1;
 }
 .btn-group:hover {
   color: black;
