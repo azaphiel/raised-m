@@ -109,7 +109,7 @@ img {
 }
 ::placeholder {
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 .btn-group:hover {
   color: black;
