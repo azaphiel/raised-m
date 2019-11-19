@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-img {
+#fx {
   z-index: -2;
   filter: blur(50px);
   filter: opacity(40%);
@@ -12,7 +12,7 @@ img {
 }
 
 
-.contText {
+.contText1 {
   color: rgba(225, 225, 225, .1);
   background: url(color3.jpg);
   animation: animateMidE 15s linear infinite;
