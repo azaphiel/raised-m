@@ -2,7 +2,7 @@ body {
   background-color: black;
 }
 
-img {
+#fx {
   z-index: -2;
   filter: blur(50px);
   filter: opacity(40%);
