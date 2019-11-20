@@ -62,14 +62,14 @@ function pay15()
 let sessionKey = null;
 let transactionLink= null;
 
-var response = Response.redirect("http://www.google.com", 302);
+
 fetch('https://api.raisedforyou.com/api/v1/sessions/726F37/donations',{
 method: 'POST',
 headers: {
 'Content-Type': 'application/json'
 },
 body: JSON.stringify({
-  amount: 1471,
+  amount: 1571,
     currency: "EUR",
     description: "donation"
 })
@@ -99,7 +99,7 @@ body: JSON.stringify({
 
   <div class="btn-all">
     <button class="btn-group" onclick="pay8()">€8</button>
-    <button class="btn-group" onclick="pay15()">€15</button>
+    <button class="btn-group" onclick="pay15()">€16</button>
     <button class="btn-group1" onclick="payCustom()">
       Custom €  &#x2192;</button>
     <input type="number" id="donation" background-color="goldenrod"
