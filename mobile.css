@@ -4,8 +4,8 @@ body {
 
 img {
   z-index: -2;
-  filter: blur(50px);
-  filter: opacity(40%);
+
+  filter: opacity(100%);
   position: absolute;
   width: 95%;
   height: 110%;
