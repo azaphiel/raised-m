@@ -4,8 +4,7 @@ body {
 
 #fx {
   z-index: -2;
-  filter: blur(50px);
-  filter: opacity(40%);
+
   position: absolute;
   width: 95%;
   height: 110%;
@@ -113,13 +112,10 @@ body {
   opacity: 1;
 }
 .btn-group:hover {
-  color: black;
-  background-color: gold;
+  color: white;
+  background-color: #b9424e;
 }
-.btn-group1:hover {
-  color: black;
-  background-color: gold;
-}
+
 
 #heart{
   width: 70%;
