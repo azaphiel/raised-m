@@ -71,6 +71,7 @@ img {
   text-align: center;
   transition: 0.3s;
   text-decoration: none;
+  font-weight: bold;
   cursor: pointer;
   padding: 15px 32px;
   font-size: 25px;
@@ -106,6 +107,7 @@ img {
   margin-top: -60px;
   font-size: 20px;
   position: absolute;
+  font-weight: bold;
   text-align: center;
   color: white;
 }
