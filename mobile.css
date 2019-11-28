@@ -14,10 +14,10 @@ img {
 
 .contText {
   color: rgba(225, 225, 225, .1);
-  background: goldenrod;
+  background: url(color3.jpg);
   animation: animateMidE 15s linear infinite;
   -webkit-background-clip: text;
-  font-family: arial;
+  font-family: helvetica;
   font-size: 10vw;
   font-weight: 600;
   text-align: center;
@@ -27,14 +27,14 @@ img {
 
 @keyframes animateMidE {
   0% {
-    background-position: left 1000px top 1000px;
+    background-position: left 400px top 100px;
   }
 }
 
 .conText {
-  color: goldenrod;
+
   font-weight: 600;
-  font-family: "Gill Sans", sans-serif;
+
   width: 70%;
   font-size: 10vw;
   text-align: left;
@@ -65,7 +65,7 @@ img {
   width: 70%;
   height: 60px;
   border-radius: 20px;
-  background-color: goldenrod;
+  background-color: #b9424e;
   border: none;
   color: white;
   text-align: center;
@@ -84,7 +84,7 @@ img {
   width: 22%;
   height: 60px;
   border-radius: 20px;
-  background-color: goldenrod;
+  background-color: #b9424e;
   border: none;
   color: white;
   text-align: center;
@@ -94,14 +94,14 @@ img {
   padding: 15px 32px;
   font-size: 20px;
   display: block;
-  margin-left: 60px;
+  margin-left: 260px;
 }
 #donation{
   width: 40%;
   height: 50px;
   border-radius: 20px;
-  background: goldenrod;
-  margin-left: 38%;
+  background: #b9424e;
+  margin-left: 14%;
   margin-top: -60px;
   font-size: 20px;
   position: absolute;
@@ -113,12 +113,12 @@ img {
   opacity: 1;
 }
 .btn-group:hover {
-  color: black;
-  background-color: gold;
+  color: goldenrod;
+  background-color: #23575b;
 }
 .btn-group1:hover {
-  color: black;
-  background-color: gold;
+  color: goldenrod;
+  background-color: #23575b;
 }
 
 #heart{
