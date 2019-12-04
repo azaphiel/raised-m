@@ -130,3 +130,9 @@ img {
   height: 35%;
   margin-left: 50px;
 }
+
+span p{
+  font-family: arial;
+  margin-top: 5px;
+  padding-left: 70px;
+}
