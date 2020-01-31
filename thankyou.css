@@ -20,7 +20,7 @@ body {
   font-family: arial;
   font-size: 9vw;
   font-weight: 600;
-  margin-top: 12%;
+  margin-top: 15%;
   margin-left: 5%;
   position: absolute;
   
@@ -111,7 +111,7 @@ body {
   height: 35%;
   margin-left: 26%;
   position: absolute;
-  margin-top: 35%;
+  margin-top: 40%;
 }
 
 *{
