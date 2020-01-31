@@ -18,9 +18,9 @@ body {
   animation: animateMidE 15s linear infinite;
   -webkit-background-clip: text;
   font-family: arial;
-  font-size: 11vw;
+  font-size: 9vw;
   font-weight: 600;
-  
+  margin-top: 12%;
   margin-left: 5%;
   position: absolute;
   
@@ -65,7 +65,7 @@ body {
 
 
 .btn-group {
-  margin-top: 125%;
+  margin-top: 110%;
   position: absolute;
   width: 52%;
   height: 60px;
@@ -109,9 +109,9 @@ body {
   width: 50%;
   align-items: center;
   height: 35%;
-  margin-left: 20%;
+  margin-left: 26%;
   position: absolute;
-  margin-top: 50%;
+  margin-top: 35%;
 }
 
 *{
