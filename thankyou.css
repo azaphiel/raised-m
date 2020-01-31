@@ -70,7 +70,7 @@ body {
   width: 52%;
   height: 60px;
   border-radius: 20px;
-  background-color: goldenrod;
+  background-color: #FF9472;
   border: none;
   color: white;
   text-align: center;
@@ -101,7 +101,7 @@ body {
 }
 .btn-group:hover {
   color: white;
-  background-color: #b9424e;
+  background-color: #F2709C;
 }
 
 
